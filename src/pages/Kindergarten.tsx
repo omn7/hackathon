@@ -38,7 +38,6 @@ function Kindergarten() {
               className=" rounded-xl shadow-md p-6 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl">
               <div className={` w-16 h-36 rounded-full flex items-center justify-center mb-4 mx-auto`}>
               <GamepadIcon className="w-8 h-8 text-pink-500" />
-                
               </div>
               <h3 className="text-3xl font-bold text-center text-white mb-2">
               Fun Games
@@ -64,7 +63,7 @@ function Kindergarten() {
             </div>
 
               {/* trird page */}
-              <div onClick={() => navigate('/course')}
+              <div onClick={() => navigate('/experement')}
                style={{ backgroundImage: 'url(https://i.pinimg.com/1200x/87/96/c7/8796c73e06b7a9a18e33f619c56f9a79.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'  }}
               
               className=" rounded-xl shadow-md p-6 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl">
@@ -79,7 +78,7 @@ function Kindergarten() {
             </div>
 
             {/* forth page */}
-            <div onClick={() => navigate('/story')}
+            <div onClick={() => navigate('/quiz')}
              style={{ backgroundImage: 'url(https://media.istockphoto.com/id/857045822/vector/seamless-question-mark-background.jpg?s=612x612&w=0&k=20&c=ZnLPDOCb6Cbbigju-STZ6iCZnyjtZLkEj5bHhXRIumI=)', backgroundSize: 'cover', backgroundPosition: 'center'  }}
               
               className=" rounded-xl shadow-md p-6 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl"

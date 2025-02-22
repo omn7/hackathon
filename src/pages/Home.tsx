@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { GraduationCap, Baby, Bird, Bookmark, BrainCircuit, BookOpenCheck, School, BotMessageSquare } from 'lucide-react';
+import { GraduationCap, Baby, BookOpenCheck, School, BotMessageSquare } from 'lucide-react';
 import Footer from '../components/footer';
 
 
@@ -49,7 +49,7 @@ function Home() {
           <div className="bg-pink-100 p-4 rounded-full mb-4">
             <School className="w-12 h-12 text-pink-500" />
           </div>
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Elemantry</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Primary & Secondary Education</h2>
           <p className="text-gray-600 text-center">
             Fun learning activities and games for our youngest learners
           </p>
@@ -58,7 +58,7 @@ function Home() {
 
           {/* Undergraduates */}
           <div
-        onClick={() => navigate('/post-graduation')}
+        onClick={() => navigate('/undergrad')}
         className="bg-blue-300 rounded-xl shadow-lg p-8 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl"
           >
         <div className="flex flex-col items-center">
@@ -94,9 +94,15 @@ function Home() {
       </div>
       <div>
         <div className="fixed bottom-4 right-4 animate-bounce">
-          <div onClick={() => navigate('/post-graduation')} className="bg-slate-600 p-2 rounded-full shadow-lg cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl">
+            <div 
+            onClick={() => {
+              navigate('/post-graduation');
+              new Audio('/path/to/sound.mp3').play();
+            }} 
+            className="bg-slate-600 p-2 rounded-full shadow-lg cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl"
+            >
             <BotMessageSquare className="w-12 h-12 text-white" />
-          </div>
+            </div>
           <p className=" text-center mt-2">AI Assistant</p>
         </div>
       </div>
