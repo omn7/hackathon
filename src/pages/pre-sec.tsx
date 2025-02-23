@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, NotebookText } from 'lucide-react';
 
-function PostGraduation() {
+function Gdu() {
   const navigate = useNavigate();
 
   
@@ -19,7 +19,7 @@ function PostGraduation() {
         </button>
 
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
-          Post Graduation Hub
+          Primary and Secondary Education.
         </h1>
         <p className="text-xl text-center text-gray-600 mb-12">
           Advance your academic journey with our comprehensive programs
@@ -27,22 +27,22 @@ function PostGraduation() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
            {/* first page */}
-            <div    onClick={() => navigate('/game')} 
+            <div    onClick={() => navigate('/carear')} 
             
-              style={{ backgroundImage: 'url(https://media.istockphoto.com/id/1344939844/photo/hand-holding-drawing-virtual-lightbulb-with-brain-on-bokeh-background-for-creative-and-smart.jpg?s=612x612&w=0&k=20&c=2GLUy6eqCSr0NFRO8CHm8_PUMy9Qc8ryqcsRoe0DEYM=)', backgroundSize: 'cover', backgroundPosition: 'center'  }}
+              style={{ backgroundImage: 'url(https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-personal-development-career-image_1061886.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'  }}
               className=" rounded-xl shadow-md p-6 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl">
               <div className={` w-16 h-36 rounded-full flex items-center justify-center mb-4 mx-auto`}>
               {/* <NotebookText className="w-8 h-8 text-green-300" /> */}
               </div>
               <h3 className="text-3xl font-bold text-center text-white mb-2">
-              Research Paper
+              Career guidance
               </h3>
               <p className="text-white text-center">Interactive educational games</p>
             </div>
 
               {/* second page */}
 
-            <div onClick={() => navigate('/story')}
+            <div onClick={() => navigate('/ebook')}
             style={{ backgroundImage: 'url(https://static.vecteezy.com/system/resources/previews/027/715/023/non_2x/e-learning-icon-made-with-binary-code-in-wireframe-hands-online-education-webinar-teaching-online-training-courses-digital-binary-data-streaming-digital-code-background-illustration-vector.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'  }}
               
               className=" rounded-xl shadow-md p-6 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl"
@@ -52,14 +52,14 @@ function PostGraduation() {
                 
               </div>
               <h3 className="text-3xl font-bold text-center text-white mb-2">
-              E-Books
+              E-Books & Library
               </h3>
               <p className="text-white text-center">Engaging stories and reading activities</p>
             </div>
 
               {/* trird page */}
               <div onClick={() => navigate('/course')}
-               style={{ backgroundImage: 'url(https://img.freepik.com/premium-vector/two-human-hands-are-holds-rocket-internet-technology-network-business-startup-concept-with-glowing-low-poly-rocket-futuristic-modern-abstract-dark-blue-background-vector-illustration_468958-1129.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'  }}
+               style={{ backgroundImage: 'url(https://img.freepik.com/free-vector/hand-drawn-science-education-background-design_23-2148477883.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'  }}
               
               className=" rounded-xl shadow-md p-6 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl">
               <div className={` w-16 h-36  rounded-full flex items-center justify-center mb-4 mx-auto`}>
@@ -67,13 +67,13 @@ function PostGraduation() {
                 
               </div>
               <h3 className="text-3xl font-bold text-center text-white mb-2">
-              Course
+              Experiments and Projects
               </h3>
               <p className="text-white text-center">Interactive educational games</p>
             </div>
 
             {/* forth page */}
-            <div onClick={() => navigate('/story')}
+            <div onClick={() => navigate('/quiz')}
              style={{ backgroundImage: 'url(https://media.istockphoto.com/id/857045822/vector/seamless-question-mark-background.jpg?s=612x612&w=0&k=20&c=ZnLPDOCb6Cbbigju-STZ6iCZnyjtZLkEj5bHhXRIumI=)', backgroundSize: 'cover', backgroundPosition: 'center'  }}
               
               className=" rounded-xl shadow-md p-6 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl"
@@ -82,7 +82,7 @@ function PostGraduation() {
                 
               </div>
               <h3 className="text-3xl font-bold text-center text-white mb-2">
-            Industry Connect
+           Quiz
               </h3>
               <p className="text-white text-center">Interactive educational games</p>
             </div>
@@ -93,7 +93,7 @@ function PostGraduation() {
 
         <div className="mt-12 grid md:grid-cols-2 gap-8">
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Latest News in Industry</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">DashBoard</h2>
             <img
               src="https://images.unsplash.com/photo-1532619187608-e5375cab36aa?auto=format&fit=crop&q=80"
               alt="Research facility"
@@ -105,7 +105,7 @@ function PostGraduation() {
           </div>
 
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Join Community Excellence</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">Join ALL India Test.</h2>
             <img
               src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80"
               alt="Graduate students"
@@ -121,4 +121,4 @@ function PostGraduation() {
   );
 }
 
-export default PostGraduation
+export default Gdu

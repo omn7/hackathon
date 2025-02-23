@@ -42,7 +42,7 @@ function Home() {
           </div>
           {/* Primary and Secondary Education */}
           <div
-        onClick={() => navigate('/kindergarten')}
+        onClick={() => navigate('/pre-sec')}
         className="bg-amber-300 rounded-xl shadow-lg p-8 cursor-pointer transform transition-all hover:scale-105 hover:shadow-xl"
           >
         <div className="flex flex-col items-center">
@@ -51,7 +51,7 @@ function Home() {
           </div>
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Primary & Secondary Education</h2>
           <p className="text-gray-600 text-center">
-            Fun learning activities and games for our youngest learners
+            Fun learning activities and games for our youngest learners.
           </p>
         </div>
           </div>

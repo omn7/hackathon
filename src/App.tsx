@@ -9,6 +9,8 @@ import Course from './pages/course';
 import Undergrad from './pages/undergrad';
 import Experement from '../src/components/experement';
 import Quiz from './components/quiz';
+import Pre_sec from './pages/pre-sec';
+import Carear from '../src/components/carear';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Route path="/undergrad" element={<Undergrad />} />
         <Route path="/experement" element={ <Experement />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/pre-sec" element={<Pre_sec/>} />
+        <Route path="/carear" element={<Carear />} />
 
       </Routes>
     </Router>
